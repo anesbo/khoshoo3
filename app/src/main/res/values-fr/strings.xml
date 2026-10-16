@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Khushoo\'</string>
+    <string name="tagline">Bouclier d\'appels pour la prière et la concentration</string>
+    
+    <!-- Auto Reply Message -->
+    <string name="section_auto_reply">Message de réponse automatique</string>
+    <string name="section_auto_reply_desc">Ce SMS sera envoyé immédiatement lorsqu\'un appel est rejeté.</string>
+    <string name="default_reply_message">Je prie actuellement, je vous rappellerai plus tard.</string>
+    <string name="message_placeholder">Saisissez votre message de réponse ici…</string>
+    <string name="preset_prayer">Prière</string>
+    <string name="preset_meeting">Réunion</string>
+    <string name="preset_driving">Conduite</string>
+    <string name="preset_focus">Concentration</string>
+    <string name="preset_prayer_msg">Je prie actuellement, je vous rappellerai plus tard.</string>
+    <string name="preset_meeting_msg">Je suis actuellement en réunion importante, je vous rappelle rapidement.</string>
+    <string name="preset_driving_msg">Je conduis actuellement, je vous rappellerai dès mon arrivée.</string>
+    <string name="preset_focus_msg">Je suis en session de profonde concentration, je vous recontacterai bientôt.</string>
+
+    <!-- Timer -->
+    <string name="section_timer">Durée d\'activation</string>
+    <string name="timer_helper_manual">Réglez sur 00:00 pour le mode manuel (reste actif jusqu\'à désactivation manuelle)</string>
+    <string name="hours_label">Heures</string>
+    <string name="minutes_label">Minutes</string>
+    <string name="hours_short">h</string>
+    <string name="minutes_short">m</string>
+    <string name="manual_mode">Mode manuel</string>
+    <string name="chip_15m">15m</string>
+    <string name="chip_30m">30m</string>
+    <string name="chip_45m">45m</string>
+    <string name="chip_1h">1h</string>
+    <string name="chip_manual">Manuel</string>
+
+    <!-- Actions & States -->
+    <string name="btn_activate">Activer Khushoo\'</string>
+    <string name="btn_deactivate">Désactiver</string>
+    <string name="status_inactive">Inactif • Les appels sonnent normalement</string>
+    <string name="status_active">Khushoo\' Actif • Filtrage des appels en cours</string>
+    <string name="remaining_time">Temps restant : %s</string>
+    <string name="manual_active_desc">Filtrage des appels actif jusqu\'à désactivation manuelle</string>
+
+    <!-- Tile Service -->
+    <string name="tile_label">Khushoo\'</string>
+    <string name="tile_active_desc">Filtrage actif</string>
+    <string name="tile_inactive_desc">Appuyer pour activer</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">Session Khushoo\' active</string>
+    <string name="notif_channel_desc">Affiche le compte à rebours et les commandes rapides</string>
+    <string name="notif_title_active">Khushoo\' est actif</string>
+    <string name="notif_body_countdown">Filtrage des appels • %s restant</string>
+    <string name="notif_body_manual">Filtrage des appels • Mode manuel</string>
+    <string name="notif_action_deactivate">Désactiver</string>
+    <string name="notif_session_ended_title">Session Khushoo\' terminée</string>
+    <string name="notif_session_ended_body">Votre téléphone a repris son fonctionnement normal.</string>
+    <string name="notif_sms_sent_title">Réponse auto envoyée</string>
+    <string name="notif_sms_sent_body">SMS envoyé au %s</string>
+
+    <!-- Permissions -->
+    <string name="permissions_title">Autorisations requises</string>
+    <string name="permissions_desc">Pour rejeter les appels silencieusement et envoyer le SMS de réponse, Khushoo\' a besoin de ces autorisations :</string>
+    <string name="perm_sms">Envoi de SMS (pour délivrer votre réponse)</string>
+    <string name="perm_phone">Gestion des appels (pour filtrer les appels entrants)</string>
+    <string name="perm_call_log">Journal d\'appels (pour identifier le numéro de l\'appelant)</string>
+    <string name="perm_notifications">Notifications (pour le compte à rebours et l\'arrêt rapide)</string>
+    <string name="btn_grant_permissions">Accorder les autorisations</string>
+    <string name="btn_set_call_screener">Activer le filtre d\'appels</string>
+    <string name="call_screener_banner">Khushoo\' doit être défini comme service de filtrage d\'appels.</string>
+    <string name="all_permissions_granted">Toutes les autorisations sont accordées</string>
+
+    <!-- Recent Blocked Calls -->
+    <string name="shielded_calls_title">Appels filtrés lors de cette session</string>
+    <string name="shielded_calls_empty">Aucun appel n\'a interrompu votre sérénité.</string>
+    <string name="shielded_call_item">%1$s • SMS envoyé à %2$s</string>
+
+    <!-- Language Selection -->
+    <string name="language_title">Langue</string>
+    <string name="lang_ar">العربية</string>
+    <string name="lang_en">English</string>
+    <string name="lang_fr">Français</string>
+</resources>

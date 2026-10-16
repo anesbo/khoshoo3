@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Khushoo\'</string>
+    <string name="tagline">Peaceful prayer &amp; focus call shield</string>
+    
+    <!-- Auto Reply Message -->
+    <string name="section_auto_reply">Auto-Reply Message</string>
+    <string name="section_auto_reply_desc">This SMS will be sent automatically when an incoming call is rejected.</string>
+    <string name="default_reply_message">I am currently praying, I will call you back later.</string>
+    <string name="message_placeholder">Enter your automated reply message here…</string>
+    <string name="preset_prayer">Prayer</string>
+    <string name="preset_meeting">Meeting</string>
+    <string name="preset_driving">Driving</string>
+    <string name="preset_focus">Deep Focus</string>
+    <string name="preset_prayer_msg">I am currently praying, I will call you back later.</string>
+    <string name="preset_meeting_msg">I am in an important meeting right now, I will reach back to you shortly.</string>
+    <string name="preset_driving_msg">I am currently driving, I will call you safely upon arrival.</string>
+    <string name="preset_focus_msg">I am in a deep focus session, I will get back to you soon.</string>
+
+    <!-- Timer -->
+    <string name="section_timer">Duration</string>
+    <string name="timer_helper_manual">Set to 00:00 for manual mode (stays active until manually turned off)</string>
+    <string name="hours_label">Hours</string>
+    <string name="minutes_label">Minutes</string>
+    <string name="hours_short">h</string>
+    <string name="minutes_short">m</string>
+    <string name="manual_mode">Manual Mode</string>
+    <string name="chip_15m">15m</string>
+    <string name="chip_30m">30m</string>
+    <string name="chip_45m">45m</string>
+    <string name="chip_1h">1h</string>
+    <string name="chip_manual">Manual</string>
+
+    <!-- Actions & States -->
+    <string name="btn_activate">Activate Khushoo\'</string>
+    <string name="btn_deactivate">Deactivate</string>
+    <string name="status_inactive">Inactive • Calls ring normally</string>
+    <string name="status_active">Khushoo\' Active • Shielding calls</string>
+    <string name="remaining_time">Remaining: %s</string>
+    <string name="manual_active_desc">Shielding calls until manually deactivated</string>
+
+    <!-- Tile Service -->
+    <string name="tile_label">Khushoo\'</string>
+    <string name="tile_active_desc">Shielding calls</string>
+    <string name="tile_inactive_desc">Tap to activate</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">Khushoo\' Active Session</string>
+    <string name="notif_channel_desc">Shows active Khushoo countdown and quick controls</string>
+    <string name="notif_title_active">Khushoo\' is Active</string>
+    <string name="notif_body_countdown">Shielding calls • %s remaining</string>
+    <string name="notif_body_manual">Shielding calls • Manual mode</string>
+    <string name="notif_action_deactivate">Deactivate</string>
+    <string name="notif_session_ended_title">Khushoo\' Session Ended</string>
+    <string name="notif_session_ended_body">Your phone has returned to normal operation.</string>
+    <string name="notif_sms_sent_title">Auto-Reply Sent</string>
+    <string name="notif_sms_sent_body">Sent reply SMS to %s</string>
+
+    <!-- Permissions -->
+    <string name="permissions_title">Permissions Required</string>
+    <string name="permissions_desc">To reject calls silently and send your custom SMS reply, Khushoo\' needs these system permissions:</string>
+    <string name="perm_sms">Send SMS (to deliver your auto-reply text)</string>
+    <string name="perm_phone">Phone &amp; Call Screening (to silently block calls)</string>
+    <string name="perm_call_log">Call Log (to identify the caller number for SMS)</string>
+    <string name="perm_notifications">Notifications (for live countdown &amp; quick stop)</string>
+    <string name="btn_grant_permissions">Grant Permissions</string>
+    <string name="btn_set_call_screener">Enable Call Screening</string>
+    <string name="call_screener_banner">Khushoo\' must be set as your Call Screening app to intercept calls.</string>
+    <string name="all_permissions_granted">All permissions ready</string>
+
+    <!-- Recent Blocked Calls -->
+    <string name="shielded_calls_title">Shielded Calls This Session</string>
+    <string name="shielded_calls_empty">No calls interrupted your peace yet.</string>
+    <string name="shielded_call_item">%1$s • Auto-reply sent at %2$s</string>
+
+    <!-- Language Selection -->
+    <string name="language_title">Language</string>
+    <string name="lang_ar">العربية</string>
+    <string name="lang_en">English</string>
+    <string name="lang_fr">Français</string>
+</resources>
