@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/anesbo/khoshoo3/releases"><img src="https://img.shields.io/badge/Release-v1.0.0-black?style=for-the-badge&logo=android" alt="Version 1.0.0" /></a>
+  <a href="https://github.com/anesbo/khoshoo3/releases"><img src="https://img.shields.io/badge/Release-v1.0.1-black?style=for-the-badge&logo=android" alt="Version 1.0.1" /></a>
   <a href="https://kotlinlang.org"><img src="https://img.shields.io/badge/Kotlin-2.0.0-black?style=for-the-badge&logo=kotlin" alt="Kotlin 2.0.0" /></a>
   <img src="https://img.shields.io/badge/Platform-Android%208.0%2B%20(API%2026%2B)-black?style=for-the-badge&logo=android" alt="Android API 26+" />
   <img src="https://img.shields.io/badge/UI-Jetpack%20Compose-black?style=for-the-badge" alt="Jetpack Compose" />
@@ -23,9 +23,9 @@
 
 You can download and install the signed APK directly:
 
-👉 **[Download Khushoo-v1.0.0.apk](apk/Khushoo-v1.0.0.apk)** *(~11.3 MB)*
+👉 **[Download Khushoo-v1.0.1.apk](apk/Khushoo-v1.0.1.apk)** *(~11.3 MB)*
 
-1. Download `Khushoo-v1.0.0.apk` to your Android device.
+1. Download `Khushoo-v1.0.1.apk` to your Android device.
 2. Open the file and allow **"Install unknown apps"** if prompted by Android.
 3. Launch **Khushoo'** and grant the required permissions (SMS & Phone Call screening).
 4. Tap the central button or toggle the Quick Settings tile anytime you enter prayer or deep focus!
@@ -128,7 +128,7 @@ cd khoshoo3
 # Build debug APK
 ./gradlew assembleDebug
 
-# Build release APK (v1.0.0)
+# Build release APK (v1.0.1)
 ./gradlew assembleRelease
 ```
 
